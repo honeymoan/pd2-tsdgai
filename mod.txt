@@ -2,7 +2,7 @@
 	"name": "TSDGAI",
 	"description": "That's some damn good AI, a mod that adds skills, passives and improvements to team AI. Singleplayer only.",
 	"author": "honeym0an",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"updates": [
   		{
     		"identifier" : "pd2-tsdgai",

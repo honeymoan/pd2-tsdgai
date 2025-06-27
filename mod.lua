@@ -28,9 +28,11 @@ if not TSDGAI then
         }
     }
 
-    TSDGAI.menu_builder = MenuBuilder:new("schema", TSDGAI.settings, TSDGAI.params)
+    TSDGAI.menu_builder = MenuBuilder:new("TSDGAI", TSDGAI.settings, TSDGAI.params)
 
     Hooks:Add("MenuManagerBuildCustomMenus", "MenuManagerBuildCustomMenusSchema", function(menu_manager, nodes)
 		TSDGAI.menu_builder:create_menu(nodes)
 	end)
     end
+
+    HopLib:run_required(TSDGAI.mod_path .. "lib/")
