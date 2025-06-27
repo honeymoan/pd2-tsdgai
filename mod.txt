@@ -1,0 +1,20 @@
+{
+	"name": "TSDGAI",
+	"description": "That's some damn good AI, a mod that adds skills, passives and improvements to team AI. Singleplayer only.",
+	"author": "honeym0an",
+	"version": "1.0.0",
+	"updates": [
+  		{
+    		"identifier" : "pd2-tsdgai",
+    		"host": {
+      			"meta": "https://raw.githubusercontent.com/honeymoan/pd2-tatics-ai/refs/heads/main/meta.json"
+    		}
+  		}
+	],
+	"dependencies" : {
+		"pd2-hoplib" : { "meta" : "https://updates.hoppip.at/pd2-hoplib" }
+	},	
+	"hooks": [
+		{ "hook_id" : "lib/managers/criminalsmanager", "script_path" : "mod.lua" },
+	]
+}

@@ -1,0 +1,22 @@
+# Compiled Lua bytecode
+*.luac
+
+# Temporary files
+*.bak
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific files
+.idea/ # IntelliJ IDEA / LuaJIT IDEA
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+.project # Eclipse
+.cproject # Eclipse
+
+# Logs
+*.log
+
